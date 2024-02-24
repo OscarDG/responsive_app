@@ -486,7 +486,7 @@ main {
   width: 100%;
   min-width: 288px;
   max-width: 400px;
-  height: 150px;
+  min-height: 150px;
   margin: 15px auto;
   padding: 15px;
   background-color: #282623;
@@ -583,6 +583,227 @@ main {
   margin-bottom: 15px;
   font-size: 1.8rem;
   font-weight: 700;
+  line-height: 1.8rem;
+  color: #ffffff;
+}
+
+.bitcoin-img--container {
+  width: 100%;
+  min-width: 320px;
+  height: 50vh;
+  background-image: url("./assets/img/bitcoinbaby2x.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.bitcoin-img--container h2 {
+  padding-top: 60px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: #ffffff;
+}
+
+.main-plans--container {
+  width: 100%;
+  min-width: 320px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.plans--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.plans--title h2 {
+  padding-top: 50px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: #201e1c;
+}
+
+.plans--title p {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #757575;
+}
+
+.plans-container--slider {
+  display: flex;
+  gap: 10px;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
+.plans-container--card {
+  position: relative;
+  scroll-snap-align: center;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(80, 73, 30, 0.16);
+}
+
+.recommended {
+  position: absolute;
+  width: 120px;
+  height: auto;
+  left: calc(50% - 60px);
+  top: -15px;
+  font-size: 1.2rem;
+  padding: 8px;
+  background-color: #F7931A;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  line-height: 1.45rem;
+  text-align: center;
+}
+
+.plan-card--title {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #282623;
+  font-family: "DM Sans", sans-serif;
+}
+
+.plan-card--price {
+  padding: 5px 0;
+  font-size: 5.2rem;
+  font-weight: bold;
+  line-height: 5rem;
+  color: #282623;
+}
+
+.plan-card--price span {
+  font-size: 1.2rem;
+  font-weight: 300;
+  width: 8px;
+  height: 15px;
+  vertical-align: text-top;
+}
+
+.plan-card--saving {
+  color: #757575;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.plan-card--ca {
+  width: 150px;
+  height: 48px;
+  margin-top: 20px;
+  background-color: #faf8f7;
+  border: 2px solid #F7931A;
+  border-radius: 4px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: #282623;
+}
+
+.plan-card--ca span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("./assets/icons/orange-right-arrow.svg");
+  vertical-align: text-bottom;
+  margin-left: 5px;
+}
+
+.plans-container--card-month {
+  position: relative;
+  scroll-snap-align: center;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(80, 73, 30, 0.16);
+}
+
+.recommended-month {
+  position: absolute;
+  width: 120px;
+  height: auto;
+  left: calc(50% - 60px);
+  top: -15px;
+  font-size: 1.2rem;
+  padding: 8px;
+  background-color: #1A9AF7;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  line-height: 1.45rem;
+  text-align: center;
+}
+
+.plans-container--card-semester {
+  position: relative;
+  scroll-snap-align: center;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
+  background-color: #201e1c;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(80, 73, 30, 0.16);
+}
+
+.recommended-semester {
+  position: absolute;
+  width: 120px;
+  height: auto;
+  left: calc(50% - 60px);
+  top: -15px;
+  font-size: 1.2rem;
+  padding: 8px;
+  background-color: #bababa;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  line-height: 1.45rem;
+  text-align: center;
+}
+
+.plan-info--container-semester h3, .plan-info--container-semester p {
+  color: #ffffff;
+}
+
+.plan-info--container-semester .plan-card--ca {
+  width: 150px;
+  height: 48px;
+  margin-top: 20px;
+  background-color: #201e1c;
+  border: 2px solid #F7931A;
+  border-radius: 4px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
   line-height: 1.8rem;
   color: #ffffff;
 }/*# sourceMappingURL=styles.css.map */
