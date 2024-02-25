@@ -706,9 +706,11 @@ main {
 }
 
 .plan-card--ca {
+  position: absolute;
+  bottom: 20px;
+  right: calc(50% - 75px);
   width: 150px;
   height: 48px;
-  margin-top: 20px;
   background-color: #faf8f7;
   border: 2px solid #F7931A;
   border-radius: 4px;
@@ -726,6 +728,10 @@ main {
   background-image: url("./assets/icons/orange-right-arrow.svg");
   vertical-align: text-bottom;
   margin-left: 5px;
+}
+
+.plan-card--ca:hover {
+  background-color: #ffe9d4;
 }
 
 .plans-container--card-month {
@@ -804,6 +810,11 @@ main {
   font-weight: bold;
   line-height: 1.8rem;
   color: #ffffff;
+}
+
+.plan-info--container-semester .plan-card--ca:hover {
+  background-color: #bababa;
+  opacity: 0.6;
 }
 
 footer {
